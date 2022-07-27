@@ -1,0 +1,33 @@
+gi<!DOCTYPE html>
+<html>
+   <body style="padding-top:50px">
+       <h3 id="event_demo">0</h3>
+       <input type="button" onclick="myFunction()" value="Click Me" />
+       <input type="reset" onclick="reset()" value="Reset" />
+   </body>
+   
+   <script>
+       function myFunction() {
+           var value = document.getElementById("event_demo").innerHTML
+           value = parseInt(value) + 1;
+           document.getElementById("event_demo").innerHTML = value;
+       }
+       function reset() {
+           document.getElementById("event_demo").innerHTML = 0;
+       }
+   </script>
+
+<img  src=”image_url” ,  usemap=”#workspace” />
+<map  name=”workspace”>
+     <area shape=”rect”  coords=”34, 44, 270, 350” ,  href=”xyz.html” />
+     <area shape=”rect”  coords=”10, 120, 250, 360” ,  href=”xyz.html” />
+</map>
+
+<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+
+<img id="myImage" src="pic_bulboff.gif" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+</html>
