@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+//<title>Demo html font size</title>
+<style>
+.square{
+	height:50px;
+	width:50px;
+	background-color:lightgrey;}
+</style>
+</head>
+<body>
+
+<h1>demo</h1>
+<p style="text-align:center;">great learning</p>
+
+<h2>draw suqare using css</h2>
+<div class="square"></div>
+
+<marquee>neha singh</marquee>
+</body>
+
+<input type="checkbox" id="car" name="vehicle1" value="bike">
+<label for="car1">i have a car</label><br>
+<input type="checkbox" id="car2" name="vehicle2" value="car">
+<label for="car2">i have a car2</label><br>
